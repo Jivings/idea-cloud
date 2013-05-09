@@ -1,0 +1,58 @@
+@import 'bootstrap-responsive.css';
+@import 'bootstrap.css';
+@import 'clouds.css';
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  background: #c9dbe9;
+  background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+  background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+  background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+
+.floor {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.floor .grass {
+  background: url(../images/grass.png) top center repeat-x;
+  height: 39px;
+  margin-top: -33px;
+}
+
+.floor .art {
+  background-image: url(../images/art.png);
+  margin-top: 0;
+  clear: left;
+  height: 180px;
+}
+
+footer {
+  width: 100%;
+  background-color: #44b750;
+  height: 3.5em;
+}
+
+footer .search {
+  position: fixed;
+  bottom: -8px;
+  left: 10px;
+}
+
+footer p {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  font-size: 1.2em
+}
+
